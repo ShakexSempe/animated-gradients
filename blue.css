@@ -1,8 +1,7 @@
 :root {
-    --gradient: linear-gradient(30deg,
-            rgb(3, 74, 116),
-            darkblue,
-            rgb(3, 74, 116));
+    --gradient: linear-gradient(90deg,
+            #000,
+            darkblue);
     --btn: linear-gradient(
         45deg,
         darkblue,
@@ -14,5 +13,6 @@
     --main-background: #ddd;
     --second-background: #fff;
     --text: #fff;
-    --title: #dc143c;
+    --beforeText: #fff;
+    --afterText: #fff000;
 }

@@ -1,13 +1,11 @@
 :root {
     --gradient: linear-gradient(45deg,
             rgb(68, 2, 68),
-            purple,
-            rgb(68,2,68)
+            violet
             );
     --btn: linear-gradient(
         45deg,
-        purple,
-        #dc143c, 
+        #fff, 
         yellow,
         orange,
         green
@@ -18,5 +16,6 @@
     --main-background: #ddd;
     --second-background: #000;
     --text: #fff;
-    --title: #dc143c;
+    --beforeText: #fff;
+    --afterText: #000;
 }

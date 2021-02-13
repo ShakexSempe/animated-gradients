@@ -5,11 +5,9 @@
 }
 
 :root {
-    --gradient: linear-gradient(40deg,
-            black,
-            rgb(48, 2, 2), 
-            #333
-            );
+    --gradient: linear-gradient(90deg,
+        #000,
+        #fff);
     --btn: linear-gradient(
         90deg,
         #eee,
@@ -22,9 +20,9 @@
 
     --head-foot: #fff;    
     --main-background: #ddd;
-    --second-background: #000;
-    --text: #fff;
-    --title: #dc143c;
+    --second-background: rgba(0, 0, 0, 0.658);
+    --beforeText: #fff;
+    --afterText: #000;
 }
 
 #theme-options-wrapper{
@@ -76,8 +74,8 @@ body{
     font-size: 1.125rem;
     line-height: 1.6;
     background: var(--gradient);
-    background-size: 360%;
-    animation: bg-animate 20s ease-in-out infinite alternate;
+    background-size: 1000%;
+    animation: bg-animate 8s ease-in-out infinite alternate;
 
 }
 header{
@@ -130,7 +128,38 @@ footer{
     background-size: 400%;
     animation: bg-animate 5s infinite alternate;
 }
+.content::before{
+    content: 'Shakex Sempe 2021';
+    position: relative;
+    top: -60px;
+    color: var(--beforeText);
+    animation: before 16s ease infinite alternate;
+}
+.content::after{
+    content: 'Shakex Sempe 2021';
+    position: relative;
+    bottom: -60px;
+    color: var(--afterText);
+    animation: after 16s ease infinite alternate;
+    
+}
 
+@keyframes before {
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes after {
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 .btn{
     cursor: pointer;
     border: 0;
