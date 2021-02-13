@@ -1,7 +1,7 @@
 :root {
     --gradient: linear-gradient(45deg,
         #027933, 
-        darkgreen, rgb(2, 121, 51));
+        darkgreen, #dc132c);
     --btn: linear-gradient(
         45deg,
         green,
