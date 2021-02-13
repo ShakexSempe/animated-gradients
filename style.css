@@ -131,14 +131,16 @@ footer{
 .content::before{
     content: 'Shakex Sempe 2021';
     position: relative;
-    top: -60px;
+    font-size: 1.8em;
+    top: -85px;
     color: var(--beforeText);
     animation: before 16s ease infinite alternate;
 }
 .content::after{
     content: 'Shakex Sempe 2021';
     position: relative;
-    bottom: -60px;
+    font-size: 1.8em;
+    bottom: -85px;
     color: var(--afterText);
     animation: after 16s ease infinite alternate;
     
@@ -189,7 +191,24 @@ footer{
 
 @media only screen and (max-width: 400px) {
     .title{
-        font-size: 3rem;
+        font-size: 2.8rem;
+    }
+    .content::before{
+        content: 'Shakex Sempe 2021';
+        position: relative;
+        font-size: 1.2em;
+        top: -85px;
+        color: var(--beforeText);
+        animation: before 16s ease infinite alternate;
+    }
+    .content::after{
+        content: 'Shakex Sempe 2021';
+        position: relative;
+        font-size: 1.2em;
+        bottom: -85px;
+        color: var(--afterText);
+        animation: after 16s ease infinite alternate;
+        
     }
 }
 
