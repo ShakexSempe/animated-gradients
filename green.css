@@ -1,0 +1,17 @@
+:root {
+    --gradient: linear-gradient(45deg,
+        #027933, 
+        darkgreen, rgb(2, 121, 51));
+    --btn: linear-gradient(
+        45deg,
+        green,
+        yellowgreen,
+        yellow
+        );
+
+    --head-foot: #000;    
+    --main-background: #ddd;
+    --second-background: #333;
+    --text: #fff;
+    --title: #dc143c;
+}
